@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2? family= Roboto:wght@400;700;900 & display=swap');
+
+:root {
+    --cor-botao:#FFB800;
+    --cor-botao-foco: #FF900E;
+}
+
+* { /*zerou tudo para estilizar*/
+    box-sizing:border-box;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+
+body{
+    background-color: black;
+    color: aliceblue;
+    font-family: 'Roboto', sans-serif;
+}
+
+.header{
+    display: flex;
+    flex-direction:initial;
+    align-items: center;
+    justify-content:space-between;
+    /*padding: 40px;*/
+    padding-left: 40px;
+}
+
+.logo{
+    height: 60px;
+}
+.menu {
+    display: flex;
+    gap: 70px;
+}
+
+.titulo{
+    font-weight:300;
+    text-align: center;
+}
+
+.paragrafo{
+    text-align: center;
+}
+
+.botao{
+    background-color: brown;
+    color:aliceblue;
+    width:700px;
+    height: 70px;
+    font-size: 20px;
+    text-decoration:double;
+    text-align: center;
+}
+.area-principal{
+    display: flex;
+    flex-direction:unset;
+    align-items: center;
+    justify-content:space-between;
+    padding-left: 40px;
+}
+.imagem{
+    orientation: center;
+    height: 300px;
+}
+
+.imagens_profissionais{
+    height: 400px;
+}
+.email{
+    background-color:white;
+    color:black;
+    width:250px;
+    height: 30px;
+    font-size: 15px;
+    text-align: center;
+}
+
+.rodape{
+    text-align: center;
+}
